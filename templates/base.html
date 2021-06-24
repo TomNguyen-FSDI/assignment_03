@@ -32,6 +32,10 @@ crossorigin="anonymous">
         <button class="btn btn-outline-secondary" type="submit">Search</button>
       </form>
 
+      <div class="create-post">
+        <a href="{% url 'post_create' %}"></a><i class="fas fa-plus"></i>
+      </div>
+
       <div class="user">
         <div class="dropdown">
           <a 
@@ -79,6 +83,11 @@ crossorigin="anonymous">
               <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search" name="searched_data">
               <button class="btn btn-outline-secondary" type="submit">Search</button>
             </form>
+
+            <div class="create-post">
+              <a href="{% url 'post_create' %}"><i class="fas fa-plus"></i></a>
+            </div>
+
             <div class="user">
               <div class="dropdown">
                 <a 

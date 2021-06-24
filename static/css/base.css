@@ -54,6 +54,9 @@ body{
 .search-container{
     flex:1;
 }
+.create-post{
+    color: white;
+}
 .user {
     margin-left: 4%;
     width: 10%;

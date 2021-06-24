@@ -12,7 +12,7 @@ class Post(models.Model):
     )
     date = models.DateTimeField(auto_now_add=True)
     body = models.TextField()
-    image = models.ImageField(upload_to='images/', default='/images/algo-logo.png')
+    image = models.ImageField(upload_to='images/', default='/images/default_pic.png')
 
     def __str__(self):
         return self.title
